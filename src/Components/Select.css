@@ -1,0 +1,68 @@
+p{
+    display: inline;
+}
+
+.select {
+    background-color: hsl( var(--clr-white) );
+    display: flex;    
+    align-items: center;
+    max-width: 60rem;    
+    padding: 7px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-inline: 15%;
+    margin-top: -2.25rem;    
+    border-radius: 4px;
+    transition: opacity 0.3s ease-out;
+}
+
+.select div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select p{
+    color: hsl( var(--clr-green) );
+    font-size: var(--fs-secondRow);
+    font-weight: 500;
+    padding: 3px 8px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: hsl( var(--clr-green-light) );     
+}
+
+.selectItem{
+    display: flex;
+    margin-right: 10px;
+    margin-block: 3px;
+}
+
+.button{
+    border: none;
+    cursor: pointer;
+    background-color: hsl( var(--clr-green) );
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.clear{
+    min-height: 2rem;
+    line-height : 2rem;
+    color: hsl( var(--clr-green) );
+    font-size: var(--fs-secondRow);
+    font-weight: 700;
+    margin-inline: auto 0;
+    cursor: pointer;
+}
+
+.clear:hover{
+    text-decoration: underline 2px;
+}
+
+.button img{    
+    vertical-align: middle;  
+}
+
+
+.button:hover{
+    background-color: hsl( var(--clr-dark) );
+}
